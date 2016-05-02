@@ -13,5 +13,8 @@ There was a map of Wean Hall to help it localize. The data directory has the fol
 • bee-map.c – Example map reader from BeeSoft that you may use if desired.
 • robotmovie1.gif – Animation of data log 1 (just for your info).
 
+To run, please go to Particle-filters-robot-localization/data/code and run mclocalization (./mclocalization) assuming all the dependencies 
+are installed on the machine.
+
 Naman Kumar
 (naman.kumar.1991@gmail.com)
