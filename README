@@ -1,11 +1,11 @@
 README
 
-The goal of the assignment (CMU Robotics Institute, 2014) was to become familiar with robot localization and particle filtering. I
-implemented a global localization filter for a lost robot (global meaning that you do not know the initial
+The goal of the assignment (CMU Robotics Institute, 2014) was to become familiar with robot localization and particle filtering. 
+I implemented a global localization filter for a lost robot (global meaning that you do not know the initial
 pose of the robot) using C++ and OPENCV. 
 
-The lost robot is operating in Wean Hall with nothing but odometry and a laser rangefinder. Fortunately,
-there is a map of Wean Hall to help it localize. The data directory has the following files:
+The lost robot is operating in Wean Hall with nothing but odometry and a laser rangefinder. 
+There was a map of Wean Hall to help it localize. The data directory has the following files:
 • instruct.txt – Format description for the map and the data logs.
 • robotdataN.log.gz – Five data logs (odometry and laser data).
 • wean.dat.gz – Map of Wean Hall to use for localization.
